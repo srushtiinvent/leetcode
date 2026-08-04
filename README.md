@@ -5,6 +5,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+| [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -29,4 +30,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 <!---LeetCode Topics End-->
