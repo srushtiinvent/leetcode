@@ -7,17 +7,16 @@ public:
         int m = classroom.size();
         int n = classroom[0].size();
 
-        int sr = 0, sc = 0, K = 0;
+        int sr, sc, K = 0;
 
         vector<vector<int>> id(m, vector<int>(n, -1));
 
-        for (int r = 0; r < m; r++) {
-            for (int c = 0; c < n; c++) {
+        for (int r = 0; r < m; ++r) {
+            for (int c = 0; c < n; ++c) {
                 if (classroom[r][c] == 'S') {
                     sr = r;
                     sc = c;
-                }
-                else if (classroom[r][c] == 'L') {
+                } else if (classroom[r][c] == 'L') {
                     id[r][c] = K++;
                 }
             }
@@ -25,27 +24,27 @@ public:
 
         if (K == 0) return 0;
 
-        int states = 1 << K;
-        int target = states - 1;
+        const int MASKS = 1 << K;
+        const int FULL = MASKS - 1;
 
-        // best[r][c][mask] = maximum energy seen for this state
-        vector<int> best(m * n * states, -1);
-
-        auto index = [&](int r, int c, int mask) {
-            return ((r * n + c) * states) + mask;
-        };
+        // best[(r*n+c)*MASKS + mask] = maximum energy
+        // with which this state has been reached.
+        vector<int> best(m * n * MASKS, -1);
 
         struct State {
-            int r, c, mask, energy;
+            int pos;
+            int mask;
+            int energy;
         };
 
         queue<State> q;
 
-        q.push({sr, sc, 0, energy});
-        best[index(sr, sc, 0)] = energy;
+        int startPos = sr * n + sc;
+        best[startPos * MASKS] = energy;
+        q.push({startPos, 0, energy});
 
-        const int dr[] = {-1, 1, 0, 0};
-        const int dc[] = {0, 0, -1, 1};
+        const int dr[4] = {-1, 1, 0, 0};
+        const int dc[4] = {0, 0, -1, 1};
 
         int moves = 0;
 
@@ -53,15 +52,19 @@ public:
             int sz = q.size();
 
             while (sz--) {
-                auto [r, c, mask, e] = q.front();
+                State cur = q.front();
                 q.pop();
 
-                int curIdx = index(r, c, mask);
+                int pos = cur.pos;
+                int r = pos / n;
+                int c = pos % n;
+                int mask = cur.mask;
+                int e = cur.energy;
 
-                if (best[curIdx] > e)
+                if (best[pos * MASKS + mask] > e)
                     continue;
 
-                for (int d = 0; d < 4; d++) {
+                for (int d = 0; d < 4; ++d) {
                     int nr = r + dr[d];
                     int nc = c + dc[d];
 
@@ -71,33 +74,35 @@ public:
                         continue;
 
                     int ne = e - 1;
-
                     if (ne < 0)
                         continue;
 
+                    int npos = nr * n + nc;
                     int nmask = mask;
 
-                    if (classroom[nr][nc] == 'L') {
+                    char cell = classroom[nr][nc];
+
+                    if (cell == 'L') {
                         nmask |= (1 << id[nr][nc]);
                     }
 
-                    if (classroom[nr][nc] == 'R') {
+                    if (cell == 'R') {
                         ne = energy;
                     }
 
-                    if (nmask == target)
+                    if (nmask == FULL)
                         return moves + 1;
 
-                    int idx = index(nr, nc, nmask);
+                    int idx = npos * MASKS + nmask;
 
                     if (ne > best[idx]) {
                         best[idx] = ne;
-                        q.push({nr, nc, nmask, ne});
+                        q.push({npos, nmask, ne});
                     }
                 }
             }
 
-            moves++;
+            ++moves;
         }
 
         return -1;
