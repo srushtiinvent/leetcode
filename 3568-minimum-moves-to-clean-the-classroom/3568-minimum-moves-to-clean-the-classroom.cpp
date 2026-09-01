@@ -7,7 +7,7 @@ public:
         int m = classroom.size();
         int n = classroom[0].size();
 
-        int sr, sc, K = 0;
+        int sr = 0, sc = 0, K = 0;
 
         vector<vector<int>> id(m, vector<int>(n, -1));
 
@@ -22,44 +22,43 @@ public:
             }
         }
 
-        if (K == 0) return 0;
+        if (K == 0)
+            return 0;
 
         const int MASKS = 1 << K;
         const int FULL = MASKS - 1;
 
-        // best[(r*n+c)*MASKS + mask] = maximum energy
-        // with which this state has been reached.
         vector<int> best(m * n * MASKS, -1);
 
         struct State {
             int pos;
             int mask;
-            int energy;
+            int e;
         };
 
-        queue<State> q;
+        vector<State> cur, next;
+        cur.reserve(m * n);
+        next.reserve(m * n);
 
-        int startPos = sr * n + sc;
-        best[startPos * MASKS] = energy;
-        q.push({startPos, 0, energy});
+        int start = sr * n + sc;
 
-        const int dr[4] = {-1, 1, 0, 0};
-        const int dc[4] = {0, 0, -1, 1};
+        best[start * MASKS] = energy;
+        cur.push_back({start, 0, energy});
+
+        const int dr[] = {-1, 1, 0, 0};
+        const int dc[] = {0, 0, -1, 1};
 
         int moves = 0;
 
-        while (!q.empty()) {
-            int sz = q.size();
+        while (!cur.empty()) {
+            next.clear();
 
-            while (sz--) {
-                State cur = q.front();
-                q.pop();
-
-                int pos = cur.pos;
+            for (const State &s : cur) {
+                int pos = s.pos;
                 int r = pos / n;
-                int c = pos % n;
-                int mask = cur.mask;
-                int e = cur.energy;
+                int c = pos - r * n;
+                int mask = s.mask;
+                int e = s.e;
 
                 if (best[pos * MASKS + mask] > e)
                     continue;
@@ -68,22 +67,21 @@ public:
                     int nr = r + dr[d];
                     int nc = c + dc[d];
 
-                    if (nr < 0 || nr >= m ||
-                        nc < 0 || nc >= n ||
+                    if ((unsigned)nr >= (unsigned)m ||
+                        (unsigned)nc >= (unsigned)n ||
                         classroom[nr][nc] == 'X')
                         continue;
 
                     int ne = e - 1;
+
                     if (ne < 0)
                         continue;
 
-                    int npos = nr * n + nc;
+                    char cell = classroom[nr][nc];
                     int nmask = mask;
 
-                    char cell = classroom[nr][nc];
-
                     if (cell == 'L') {
-                        nmask |= (1 << id[nr][nc]);
+                        nmask |= 1 << id[nr][nc];
                     }
 
                     if (cell == 'R') {
@@ -93,15 +91,17 @@ public:
                     if (nmask == FULL)
                         return moves + 1;
 
+                    int npos = nr * n + nc;
                     int idx = npos * MASKS + nmask;
 
                     if (ne > best[idx]) {
                         best[idx] = ne;
-                        q.push({npos, nmask, ne});
+                        next.push_back({npos, nmask, ne});
                     }
                 }
             }
 
+            cur.swap(next);
             ++moves;
         }
 
