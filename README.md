@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/srushtiinvent/leetcode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 ## Math
@@ -35,6 +36,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 |  |
@@ -47,9 +49,18 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/srushtiinvent/leetcode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Linked List
 |  |
 | ------- |
 | [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/srushtiinvent/leetcode/tree/main/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium |
+## Breadth-First Search
+|  |
+| ------- |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+## Matrix
+|  |
+| ------- |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 <!---LeetCode Topics End-->
