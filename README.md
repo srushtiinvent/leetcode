@@ -12,6 +12,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/srushtiinvent/leetcode/tree/master/0007-reverse-integer) |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [3345-smallest-divisible-digit-product-i](https://github.com/srushtiinvent/leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/srushtiinvent/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
