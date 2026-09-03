@@ -69,4 +69,12 @@
 |  |
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/srushtiinvent/leetcode/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/srushtiinvent/leetcode/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
