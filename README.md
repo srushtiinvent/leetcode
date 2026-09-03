@@ -23,6 +23,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/srushtiinvent/leetcode/tree/master/0072-edit-distance) |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/srushtiinvent/leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
@@ -79,6 +80,7 @@
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/srushtiinvent/leetcode/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/srushtiinvent/leetcode/tree/master/0125-valid-palindrome) |
 ## Memoization
 |  |
