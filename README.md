@@ -7,6 +7,7 @@
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+| [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/srushtiinvent/leetcode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/srushtiinvent/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
@@ -52,6 +53,7 @@
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+| [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 |  |
@@ -61,6 +63,7 @@
 |  |
 | ------- |
 | [3345-smallest-divisible-digit-product-i](https://github.com/srushtiinvent/leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
+| [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -89,6 +92,7 @@
 | ------- |
 | [0072-edit-distance](https://github.com/srushtiinvent/leetcode/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/srushtiinvent/leetcode/tree/master/0125-valid-palindrome) |
+| [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 ## Memoization
 |  |
 | ------- |
@@ -118,4 +122,8 @@
 |  |
 | ------- |
 | [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+## Counting
+|  |
+| ------- |
+| [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 <!---LeetCode Topics End-->
