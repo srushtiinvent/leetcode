@@ -6,6 +6,7 @@
 | ------- |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/srushtiinvent/leetcode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/srushtiinvent/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
@@ -50,6 +51,7 @@
 |  |
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 |  |
@@ -73,6 +75,7 @@
 |  |
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
 ## Matrix
 |  |
 | ------- |
@@ -95,4 +98,24 @@
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/srushtiinvent/leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/srushtiinvent/leetcode/tree/master/3904-smallest-stable-index-ii) |
+## Depth-First Search
+|  |
+| ------- |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+## Union-Find
+|  |
+| ------- |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+## Graph Theory
+|  |
+| ------- |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+## Ordered Set
+|  |
+| ------- |
+| [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
 <!---LeetCode Topics End-->
