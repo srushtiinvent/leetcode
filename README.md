@@ -20,6 +20,7 @@
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/srushtiinvent/leetcode/tree/master/0509-fibonacci-number) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/srushtiinvent/leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
+| [3677-count-binary-palindromic-numbers](https://github.com/srushtiinvent/leetcode/tree/master/3677-count-binary-palindromic-numbers) |
 | [3875-construct-uniform-parity-array-i](https://github.com/srushtiinvent/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/srushtiinvent/leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 ## Dynamic Programming
@@ -62,6 +63,7 @@
 |  |
 | ------- |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3677-count-binary-palindromic-numbers](https://github.com/srushtiinvent/leetcode/tree/master/3677-count-binary-palindromic-numbers) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/srushtiinvent/leetcode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Linked List
 |  |
