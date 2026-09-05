@@ -7,6 +7,7 @@
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/srushtiinvent/leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/srushtiinvent/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/srushtiinvent/leetcode/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
@@ -58,6 +59,7 @@
 ## Sorting
 |  |
 | ------- |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/srushtiinvent/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3731-find-missing-elements](https://github.com/srushtiinvent/leetcode/tree/main/3731-find-missing-elements/) | Easy |
 ## Enumeration
 |  |
@@ -87,6 +89,7 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/srushtiinvent/leetcode/tree/master/0125-valid-palindrome) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/srushtiinvent/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## String
 |  |
 | ------- |
@@ -132,4 +135,12 @@
 |  |
 | ------- |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/srushtiinvent/leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Binary Search
+|  |
+| ------- |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/srushtiinvent/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
+## Greedy
+|  |
+| ------- |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/srushtiinvent/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 <!---LeetCode Topics End-->
