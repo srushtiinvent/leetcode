@@ -114,10 +114,12 @@
 |  |
 | ------- |
 | [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/srushtiinvent/leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [3607-power-grid-maintenance](https://github.com/srushtiinvent/leetcode/tree/master/3607-power-grid-maintenance) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/srushtiinvent/leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Ordered Set
 |  |
 | ------- |
@@ -126,4 +128,8 @@
 |  |
 | ------- |
 | [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
+## Shortest Path
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/srushtiinvent/leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
