@@ -30,6 +30,7 @@
 |  |
 | ------- |
 | [0072-edit-distance](https://github.com/srushtiinvent/leetcode/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/srushtiinvent/leetcode/tree/master/0115-distinct-subsequences) |
 | [0486-predict-the-winner](https://github.com/srushtiinvent/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/srushtiinvent/leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
@@ -94,6 +95,7 @@
 |  |
 | ------- |
 | [0072-edit-distance](https://github.com/srushtiinvent/leetcode/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/srushtiinvent/leetcode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/srushtiinvent/leetcode/tree/master/0125-valid-palindrome) |
 | [3664-two-letter-card-game](https://github.com/srushtiinvent/leetcode/tree/master/3664-two-letter-card-game) |
 ## Memoization
